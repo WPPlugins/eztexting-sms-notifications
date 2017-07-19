@@ -1,0 +1,62 @@
+/* 
+    Document   : admin.dev
+    Created on : 01.11.2011, 18:24:41
+    Author     : viktor@eztexting.com
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+#ezsmsn_new_post_message, #ezsmsn_message{width: 300px;height:100px}
+#ezsmsn_message_template {width: 400px;color: #747575}
+#ezsmsn_message_template p{margin-bottom: 5px}
+#ezsmsn_message_template span{color:#21759B;font-size: 1.1em;font-weight: normal;cursor:pointer;font-style: italic}
+#ezsmsn_message_template span.value{color:#747575;font-style: normal}
+.ezsmsn_note{margin-bottom: 5px;}
+#ezsmsn_counter{font-style: italic;color: #747575}
+
+.ezsmsn_subscribers_container {width: 99%;margin: 10px 0}
+.column-phonenumber{width: 40%}
+.column-created{width: 40%}
+
+.ezsmsn-pager {text-align: right}
+.button-delete{background-color: red !important}
+
+.button-uninstall {
+    text-decoration: none;
+    font-size: 12px !important;
+    line-height: 13px;
+    padding: 3px 8px;
+    cursor: pointer;
+    border-width: 1px;
+    border-style: solid;
+    -moz-border-radius: 20px !important;
+    -khtml-border-radius: 20px !important;
+    -webkit-border-radius: 20px !important;
+    border-radius: 20px !important;
+    -moz-box-sizing: content-box !important;
+    -webkit-box-sizing: content-box !important;
+    -khtml-box-sizing: content-box !important;
+    box-sizing: content-box;
+    border-color: #900 !important;
+    font-weight: bold;
+    color: #fff !important;
+    background-color: #c00 !important;
+    text-shadow: rgba(0,0,0,0.3) 0 -1px 0 !important;
+}
+
+input.button-uninstall:active {
+    background-color: #c00;
+    color: #fee;
+}
+
+input.button-uninstall:hover {
+    border-color: #300;
+    color: #fee;
+}
+
+.ezsmsn_opt_out {text-decoration: line-through}

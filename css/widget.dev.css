@@ -1,0 +1,17 @@
+/* 
+    Document   : widget.dev.css
+    Created on : 02.11.2011, 13:52:48
+    Author     : viktor@eztexting.com
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+.ezsubscribe_form,.ezsms-subscribe p{margin-bottom: 5px}
+.ezsubscribe_form input[type=text]{width:100%}
+.ezsubscribe_note {font-size:.9em;line-height: 1.1em}
+
